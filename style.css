@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    gap: 20px;
+    /* height: 50vh; */
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50vh;
+}
+button{
+    height: 80px;
+    width: 80px;
+    padding: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+#orange:hover{
+    background-color: orange;
+}
+#red:hover{
+    background-color:red;
+}
+#green:hover{
+    background-color:green;
+}
+#blue:hover{
+    background-color:blue;
+}
+#yellow:hover{
+    background-color:yellow;
+}
